@@ -6,14 +6,15 @@ const ChatInput: FC = () => {
         px-4 py-4 overflow-auto relative">
 
             <textarea
-                className="border-0 bg-transparent outline-none w-11/12"
+                rows={1}
+                className="border-0 bg-transparent outline-none resize-none w-11/12"
             />
 
             <img
                 src="./send.png"
                 alt="send-btn"
                 width={20}
-                className="absolute top-4 right-3 hover:cursor-pointer ease-in duration-100 hover:scale-125"
+                className="absolute top-5 right-4 hover:cursor-pointer ease-in duration-100 hover:scale-125"
             />
         </div>
     )
