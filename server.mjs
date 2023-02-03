@@ -20,6 +20,10 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
+app.get('/', async (req, res) => {
+    res.send("<h1>Welcome To Server</h1>");
+});
+
 app.post('/', async (req, res) => {
 
     const { message } = req.body;
