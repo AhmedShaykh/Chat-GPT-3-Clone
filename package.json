@@ -1,29 +1,27 @@
 {
-  "name": "chat-gpt-server",
-  "version": "1.0.0",
+  "name": "chat-gpt-client",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "main": "server.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AhmedShaykh/Chat-GPT-3-Clone.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AhmedShaykh/Chat-GPT-3-Clone/issues"
-  },
-  "homepage": "https://github.com/AhmedShaykh/Chat-GPT-3-Clone#readme",
   "dependencies": {
-    "body-parser": "^1.20.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "openai": "^3.1.0"
+    "@formkit/auto-animate": "^1.0.0-beta.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwind-scrollbar": "^2.1.0",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.1.0"
   }
 }

@@ -2,7 +2,7 @@ export const FetchResponse = async (chat) => {
 
     try {
 
-        const response = await fetch('http://localhost:3080/', {
+        const response = await fetch('https://taupe-dove-slip.cyclic.app/', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
