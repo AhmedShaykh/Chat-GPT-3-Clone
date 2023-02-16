@@ -185,10 +185,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
-"@types/react-dom@18.0.10":
-  version "18.0.10"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.10.tgz#3b66dec56aa0f16a6cc26da9e9ca96c35c0b4352"
-  integrity sha512-E42GW/JA4Qv15wQdqJq8DL4JhNpB3prJgjgapN3qJT9K2zO5IIAQh4VXvCEDupoqAwnz0cY4RlXeC/ajX5SFHg==
+"@types/react-dom@18.0.11":
+  version "18.0.11"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.11.tgz#321351c1459bc9ca3d216aefc8a167beec334e33"
+  integrity sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==
   dependencies:
     "@types/react" "*"
 
@@ -461,9 +461,9 @@ camelcase-css@^2.0.1:
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
 caniuse-lite@^1.0.30001406, caniuse-lite@^1.0.30001426, caniuse-lite@^1.0.30001449:
-  version "1.0.30001451"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001451.tgz#2e197c698fc1373d63e1406d6607ea4617c613f1"
-  integrity sha512-XY7UbUpGRatZzoRft//5xOa69/1iGJRBlrieH6QYrkKLIFn3m7OVEJ81dSrKoy2BnKsdbX5cLrOispZNYo9v2w==
+  version "1.0.30001453"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001453.tgz#6d3a1501622bf424a3cee5ad9550e640b0de3de8"
+  integrity sha512-R9o/uySW38VViaTrOtwfbFEiBFUh7ST3uIG4OEymIG3/uKdHDO4xk/FaqfUw0d+irSUyFPy3dZszf9VvSTPnsA==
 
 chalk@^4.0.0:
   version "4.1.2"
@@ -635,9 +635,9 @@ doctrine@^3.0.0:
     esutils "^2.0.2"
 
 electron-to-chromium@^1.4.284:
-  version "1.4.295"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.295.tgz#911d5df67542bf7554336142eb302c5ec90bba66"
-  integrity sha512-lEO94zqf1bDA3aepxwnWoHUjA8sZ+2owgcSZjYQy0+uOSEclJX0VieZC+r+wLpSxUHRd6gG32znTWmr+5iGzFw==
+  version "1.4.300"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.300.tgz#37097e9bcdef687fb98abb5184434bdb958dfcd9"
+  integrity sha512-tHLIBkKaxvG6NnDWuLgeYrz+LTwAnApHm2R3KBNcRrFn0qLmTrqQeB4X4atfN6YJbkOOOSdRBeQ89OfFUelnEQ==
 
 emoji-regex@^9.2.2:
   version "9.2.2"
@@ -934,9 +934,9 @@ espree@^9.4.0:
     eslint-visitor-keys "^3.3.0"
 
 esquery@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/esquery/-/esquery-1.4.0.tgz#2148ffc38b82e8c7057dfed48425b3e61f0f24a5"
-  integrity sha512-cCDispWt5vHHtwMY2YrAQ4ibFkAL8RbH5YGBnZBc90MolvvfkkQcJro/aZiAQUlQ3qgrYS6D6v8Gc5G5CQsc9w==
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/esquery/-/esquery-1.4.2.tgz#c6d3fee05dd665808e2ad870631f221f5617b1d1"
+  integrity sha512-JVSoLdTlTDkmjFmab7H/9SL9qGSyjElT3myyKp7krqjVFQCDLmj1QFaCLRFBszBKI0XVZaiiXvuPIX3ZwHe1Ng==
   dependencies:
     estraverse "^5.1.0"
 
@@ -2129,10 +2129,10 @@ synckit@^0.8.4:
     "@pkgr/utils" "^2.3.1"
     tslib "^2.5.0"
 
-tailwindcss@^3.2.6:
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.2.6.tgz#9bedbc744a4a85d6120ce0cc3db024c551a5c733"
-  integrity sha512-BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO+1ov/MJ93ODJ9yluRituIw==
+tailwindcss@^3.2.7:
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.2.7.tgz#5936dd08c250b05180f0944500c01dce19188c07"
+  integrity sha512-B6DLqJzc21x7wntlH/GsZwEXTBttVSl1FtCzC8WP4oBc/NKef7kaax5jeihkkCEWc831/5NDJ9gRNDK6NEioQQ==
   dependencies:
     arg "^5.0.2"
     chokidar "^3.5.3"
