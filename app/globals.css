@@ -2,18 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-html,
-body {
-  max-width: 100vw;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+@layer components {
+  .infoText {
+    @apply p-4 bg-gray-700/50 rounded-lg max-w-[300px]
+  }
 }
