@@ -3,6 +3,7 @@ import SideBar from '@/Components/SideBar';
 import { SessionProvider } from '@/Components/SessionProvider';
 import { getServerSession } from 'next-auth';
 import { authOptions } from '@/pages/auth/[...nextauth]';
+import Login from '@/Components/Login';
 
 export default async function RootLayout({
     children,
@@ -15,16 +16,21 @@ export default async function RootLayout({
     return (
         <html lang="en">
             <head />
+            
             <body>
                 <SessionProvider session={session}>
-                    <div className="flex">
-                        <div className="bg-[#202123] max-w-xs h-screen overflow-y-auto md:min-w-[16rem]">
-                            <SideBar />
+                    {!session ? (
+                        <Login />
+                    ) : (
+                        <div className="flex">
+                            <div className="bg-[#202123] max-w-xs h-screen overflow-y-auto md:min-w-[16rem]">
+                                <SideBar />
+                            </div>
+                            <div className="bg-[#343541] flex-1 ">
+                                {children}
+                            </div>
                         </div>
-                        <div className="bg-[#343541] flex-1 ">
-                            {children}
-                        </div>
-                    </div>
+                    )}
                 </SessionProvider>
             </body>
         </html>
