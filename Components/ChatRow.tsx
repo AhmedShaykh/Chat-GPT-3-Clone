@@ -39,7 +39,7 @@ const ChatRow: FC<Props> = ({ id }) => {
     return (
         <Link
             href={`/chat/${id}`}
-            className={`chatRow justify-center ${active && "bg-gray-700/50"}`}
+            className={`chatRow justify-center my-2 ${active && "bg-gray-700/50"}`}
         >
             <ChatBubbleLeftIcon className="h-5 w-5" />
             <p className="flex-1 hidden md:inline-flex truncate">
