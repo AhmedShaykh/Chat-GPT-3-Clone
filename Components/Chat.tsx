@@ -6,7 +6,9 @@ type Props = {
 
 const Chat: FC<Props> = ({ chatId }) => {
     return (
-        <div>Chat</div>
+        <div className="flex-1">
+            
+        </div>
     )
 };
 
