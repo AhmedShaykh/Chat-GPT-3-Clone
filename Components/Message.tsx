@@ -17,7 +17,7 @@ const Message: FC<Props> = ({ message }) => {
                     alt=""
                     className="h-8 w-8 rounded-full"
                 />
-                <p className="pt-1 text-sm text-white">
+                <p className="pt-1 text-md text-white leading-6">
                     {message.text}
                 </p>
             </div>
