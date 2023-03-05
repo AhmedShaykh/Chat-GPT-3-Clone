@@ -27,13 +27,13 @@ const SideBar: FC = () => {
                     <NewChat />
                     <div className="flex flex-col">
 
-                        {/* {loading && (
+                        {loading && (
                             <div className="animate-pulse text-center text-white">
                                 <p>
                                     Loading Chats...
                                 </p>
                             </div>
-                        )} */}
+                        )}
 
                         {chats?.docs.map(chat => (
                             <ChatRow key={chat.id} id={chat.id} />
