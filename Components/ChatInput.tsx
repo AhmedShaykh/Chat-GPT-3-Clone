@@ -60,7 +60,7 @@ const ChatInput: FC<Props> = ({ chatId }) => {
     };
 
     return (
-        <div className="bg-gray-700/50 text-gray-400 rounded-lg text-sm">
+        <div className="bg-gray-700/50 text-gray-100 rounded-lg text-sm">
             <form onSubmit={sendMessage} className="p-5 space-x-5 flex">
                 <input
                     type="text"
