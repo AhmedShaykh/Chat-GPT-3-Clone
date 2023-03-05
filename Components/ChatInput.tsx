@@ -80,10 +80,6 @@ const ChatInput: FC<Props> = ({ chatId }) => {
                     <PaperAirplaneIcon className="h-4 w-4 -rotate-45" />
                 </button>
             </form>
-
-            <div>
-
-            </div>
         </div>
     )
 };
