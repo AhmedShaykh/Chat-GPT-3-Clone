@@ -5,12 +5,12 @@ import Image from 'next/image';
 
 const Login = () => {
     return (
-        <div className="screenBg h-screen flex flex-col items-center justify-center text-center">
+        <div className="screenBg flex flex-col items-center justify-center text-center">
             <div>
                 <Image
                     src="https://links.papareact.com/2i6"
-                    width={300}
-                    height={300}
+                    width={350}
+                    height={350}
                     alt="logo"
                 />
             </div>

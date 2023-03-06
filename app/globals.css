@@ -4,7 +4,7 @@
 
 @layer components {
   .screenBg {
-    @apply bg-[#11A37F]
+    @apply bg-[#11A37F] h-screen
   }
 
   .infoText {
